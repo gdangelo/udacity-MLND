@@ -21,7 +21,7 @@ Machine Learning Specializations | Capstone Project | -
 
 ## Questions or Feedback
 
-> Contact me anytime for anything about my projects or machine learning in general. I would be happy to help you :)
+> Contact me anytime for anything about my projects or machine learning in general. I'd be happy to help you :wink:
 
 * Twitter: [@gdangel0](https://twitter.com/gdangel0)
 * Linkedin: [Grégory D'Angelo](https://www.linkedin.com/in/gregorydangelo)
