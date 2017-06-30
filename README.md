@@ -11,7 +11,7 @@ The following projects goes from the prediction of housing prices using linear r
 
 Section | Project | Status
 --- | --- | :---:
-Exploratory Project | Titanic Survival Exploration | -
+Exploratory Project | [Titanic Survival Exploration](https://github.com/gdangelo/udacity-MLND/tree/master/projects/titanic_survival_exploration) | Done
 Model Evalution and Validation | Predicting Boston Housing Prices | -
 Supervised Learning | Finding Donors for CharityML | -
 Unsupervised Learning | Creating Customer Segments | -
