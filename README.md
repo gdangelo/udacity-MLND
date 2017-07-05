@@ -13,7 +13,7 @@ Section | Project | Status
 --- | --- | :---:
 Exploratory Project | [Titanic Survival Exploration](https://github.com/gdangelo/udacity-MLND/tree/master/projects/titanic_survival_exploration) | Done
 Model Evalution and Validation | [Predicting Boston Housing Prices](https://github.com/gdangelo/udacity-MLND/tree/master/projects/boston_housing) | Done
-Supervised Learning | Finding Donors for CharityML | -
+Supervised Learning | [Finding Donors for CharityML](https://github.com/gdangelo/udacity-MLND/tree/master/projects/finding_donors) | Done
 Unsupervised Learning | Creating Customer Segments | -
 Reinforcement Learning | Train a Smartcab to Drive | -
 Deep Learning | Image Classification | -
