@@ -15,7 +15,7 @@ Exploratory Project | [Titanic Survival Exploration](https://github.com/gdangelo
 Model Evalution and Validation | [Predicting Boston Housing Prices](https://github.com/gdangelo/udacity-MLND/tree/master/projects/boston_housing) | Done
 Supervised Learning | [Finding Donors for CharityML](https://github.com/gdangelo/udacity-MLND/tree/master/projects/finding_donors) | Done
 Unsupervised Learning | [Creating Customer Segments](https://github.com/gdangelo/udacity-MLND/tree/master/projects/customer_segments) | Done
-Reinforcement Learning | Train a Smartcab to Drive | -
+Reinforcement Learning | [Train a Smartcab to Drive](https://github.com/gdangelo/udacity-MLND/tree/master/projects/smartcab) | Done
 Deep Learning | Image Classification | -
 Machine Learning Specializations | Capstone Project | -
 
