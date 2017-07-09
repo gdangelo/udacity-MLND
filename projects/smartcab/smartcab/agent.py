@@ -8,7 +8,7 @@ class LearningAgent(Agent):
     """ An agent that learns to drive in the Smartcab world.
         This is the object you will be modifying. """
 
-    def __init__(self, env, learning=False, epsilon=1.0, alpha=0.5, decay_rate=0.5):
+    def __init__(self, env, learning=False, epsilon=1.0, alpha=0.5, decay_rate=0.001):
         super(LearningAgent, self).__init__(env)     # Set the agent in the evironment
         self.planner = RoutePlanner(self.env, self)  # Create a route planner
         self.valid_actions = self.env.valid_actions  # The set of valid actions
@@ -48,8 +48,8 @@ class LearningAgent(Agent):
             self.epsilon = 0
         else:
             #self.epsilon -= 0.05
-            self.epsilon = 1.0 / (self.n_trials**2)
-            #self.epsilon = math.exp(self.decay_rate**self.n_trials)
+            #self.epsilon = 1.0 / (self.n_trials**2)
+            self.epsilon = math.exp(-self.decay_rate*self.n_trials)
 
         return None
 
@@ -143,8 +143,9 @@ class LearningAgent(Agent):
         ###########
         # When learning, implement the value iteration update rule
         #   Use only the learning rate 'alpha' (do not use the discount factor 'gamma')
-        if (str(state) in self.Q):
-            self.Q[str(state)][action] = (1 - self.alpha) * self.Q[str(state)][action] + self.alpha * reward
+        if (self.learning == True):
+            if (str(state) in self.Q):
+                self.Q[str(state)][action] = (1 - self.alpha) * self.Q[str(state)][action] + self.alpha * reward
 
         return
 
@@ -203,7 +204,7 @@ def run():
     # Flags:
     #   tolerance  - epsilon tolerance before beginning testing, default is 0.05
     #   n_test     - discrete number of testing trials to perform, default is 0
-    sim.run(tolerance=0.0000001, n_test=100)
+    sim.run(tolerance=0.01, n_test=10)
 
 
 if __name__ == '__main__':
